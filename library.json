@@ -26,6 +26,12 @@
          "-<lapack/>",
          "-<test/>",
          "-<unsupported/>"
+        ],
+        "flags": 
+        [
+            "-Os",
+            "-Wl",
+            "-s"
         ]
     },
     "frameworks": "*",
